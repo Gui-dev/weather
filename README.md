@@ -1,4 +1,4 @@
-<!-- <h1 align="center">
+<h1 align="center">
    <img
         alt="Weather"
         title="Weather"
@@ -6,7 +6,7 @@
         width="119"
         height="159"
     />
-</h1> -->
+</h1>
 
 # Weather
   - 
