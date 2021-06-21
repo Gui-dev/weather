@@ -3,8 +3,8 @@
         alt="Weather"
         title="Weather"
         src="./src/assets/logo.png"
-        width="119"
-        height="159"
+        width="512"
+        height="362"
     />
 </h1>
 
