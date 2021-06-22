@@ -1,16 +1,16 @@
 import React from 'react'
 
 import { colors } from './../../styles/colors'
-import { Container } from './style'
+import { BackgroundContainer } from './style'
 
 export const Background: React.FC = ({ children }) => {
   return (
-    <Container
+    <BackgroundContainer
       start={{ x: .79, y: .75 }}
       end={{ x: .85, y: .95 }}
       colors={[colors.primary, colors.third]}
     >
       { children }
-    </Container>
+    </BackgroundContainer>
   )
 }
