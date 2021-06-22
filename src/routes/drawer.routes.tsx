@@ -8,8 +8,20 @@ export const DrawerRoutes: React.FC = () => {
   const { Navigator, Screen } = createDrawerNavigator()
   return (
     <Navigator>
-      <Screen name="Home" component={ Home }/>
-      <Screen name="Search" component={ Search }/>
+      <Screen
+        name="Home"
+        component={ Home }
+        options={{
+          title: 'Minha cidade'
+        }}
+      />
+      <Screen
+        name="Search"
+        component={ Search }
+        options={{
+          title: 'Procurar'
+        }}
+      />
     </Navigator>
   )
 }
