@@ -12,19 +12,19 @@ export const condition = (condition: string) => {
   switch (condition) {
     case 'storm':
       return icon = {
-        name: 'rainy-outline',
+        name: 'rainy',
         color: `${colors.fourth}`
       }
 
     case 'clear_day':
       return icon = {
-        name: 'partly-sunny-outline',
+        name: 'partly-sunny',
         color: `${colors.sun}`
       }
 
     case 'rain':
       return icon = {
-        name: 'rainy-outline',
+        name: 'rainy',
         color: `${colors.fourth}`
       }
 
