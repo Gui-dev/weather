@@ -4,7 +4,7 @@ import LottieView from 'lottie-react-native'
 import weatherLoad from './../../assets/weather-load.json'
 import { Container } from './style'
 
-const Load: React.FC = () => {
+export const Load: React.FC = () => {
   return (
     <Container>
       <LottieView
@@ -20,5 +20,3 @@ const Load: React.FC = () => {
     </Container>
   );
 }
-
-export default Load;
