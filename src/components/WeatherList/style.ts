@@ -5,6 +5,7 @@ export const Container = styled.FlatList.attrs({
   showsHorizontalScrollIndicator: false,
   contentContainerStyle: {
     paddingBottom: '5%',
+    paddingRight: '10%',
     marginLeft: 10
   }
 })`
