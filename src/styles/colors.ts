@@ -7,5 +7,7 @@ export const colors = {
   white: '#FFF',
   dark: '#222',
 
-  sun: '#FFB300'
+  sun: '#FFB300',
+  night_dark: '#0C3741',
+  night_light: '#97C1FF'
 }
