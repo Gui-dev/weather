@@ -1,10 +1,28 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Ionicons  } from '@expo/vector-icons'
 
 import { condition } from '../../../utils/condition'
 import { Container, Date, Prediction, Min, Max } from './style'
+import { colors } from '../../../styles/colors'
 
 interface IForecastProps {
+  // state: {
+  //   city: string
+  //   city_name: string
+  //   condition_code: string
+  //   condition_slug: string
+  //   currently: string
+  //   date: string
+  //   description: string
+  //   forecast: [{
+  //     condition: string
+  //     date: string
+  //     description: string
+  //     max: number
+  //     min: number
+  //     weekday: string
+  //   }]
+  // },
   item: {
     date: string
     weekday: string
