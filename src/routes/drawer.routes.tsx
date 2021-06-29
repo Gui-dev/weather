@@ -3,23 +3,29 @@ import { createDrawerNavigator } from '@react-navigation/drawer'
 
 import { Home } from '../screens/Home'
 import { Search } from '../screens/Search'
+import { colors } from '../styles/colors'
 
 export const DrawerRoutes: React.FC = () => {
   const { Navigator, Screen } = createDrawerNavigator()
   return (
-    <Navigator>
+    <Navigator
+      drawerStyle={{
+        backgroundColor: colors.fourth,
+      }}
+    >
       <Screen
         name="Home"
         component={ Home }
         options={{
-          title: 'Minha cidade'
+          drawerLabel: 'Minha cidade',
+
         }}
       />
       <Screen
         name="Search"
         component={ Search }
         options={{
-          title: 'Procurar'
+          drawerLabel: 'Procurar'
         }}
       />
     </Navigator>
