@@ -14,15 +14,15 @@
 # Screens
 
 <p align="left">
-<img src="./screens/home-day.png" width="19%" height="400" />
-&nbsp; &nbsp; &nbsp; &nbsp;
-<img src="./screens/home-night.png" width="19%" height="400" />
-&nbsp; &nbsp; &nbsp; &nbsp;
-<img src="./screens/menu.png" width="19%" height="400" />
-&nbsp; &nbsp; &nbsp; &nbsp;
-<img src="./screens/search.png" width="19%" height="400" />
-&nbsp; &nbsp; &nbsp; &nbsp;
-<img src="./screens/search-result.png" width="19%" height="400" />
+<img src="./screens/home-day.png" width="19%"/>
+&nbsp; &nbsp; &nbsp;
+<img src="./screens/home-night.png" width="19%"/>
+&nbsp; &nbsp; &nbsp;
+<img src="./screens/menu.png" width="19%"/>
+&nbsp; &nbsp; &nbsp;
+<img src="./screens/search.png" width="19%"/>
+&nbsp; &nbsp; &nbsp;
+<img src="./screens/search-result.png" width="19%"/>
 </p>
 
 ## Technologies used
