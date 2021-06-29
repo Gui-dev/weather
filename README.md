@@ -9,7 +9,7 @@
 </h1>
 
 # Weather
-  -
+  - App to check your city's weather, temperature, wind speed, air humidity, etc.
 
 # Screens
 
@@ -30,6 +30,7 @@
   - [Expo](https://docs.expo.io)
   - [Typescript](https://www.typescriptlang.org)
   - [Styled Components](https://www.styled-components.com)
+  - [API HG brasil](https://hgbrasil.com/)
 
 ## Requirements
 
