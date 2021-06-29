@@ -38,7 +38,7 @@ export const Home: React.FC = () => {
       })
       const { data } = await api.get('/weather', {
         params: {
-          key: '47c71162',
+          key: process.env.HGBRASIL_KEY,
           lat: location.latitude,
           lon: location.longitude
         }

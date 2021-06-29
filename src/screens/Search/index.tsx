@@ -28,7 +28,7 @@ export const Search: React.FC = () => {
     }
     const { data } = await api.get('/weather', {
       params: {
-        key: '47c71162',
+        key: process.env.HGBRASIL_KEY,
         city_name: inputCity
       }
     })
