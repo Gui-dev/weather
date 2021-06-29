@@ -1,4 +1,6 @@
 import styled from 'styled-components/native'
+import { LinearGradient } from 'expo-linear-gradient'
+
 import { colors } from '../../styles/colors'
 import { fonts } from '../../styles/fonts'
 
@@ -55,4 +57,35 @@ export const SearchButton = styled.TouchableOpacity.attrs({
   background-color: ${colors.sun};
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
+`
+
+export const CityBox = styled(LinearGradient)`
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  margin-top: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-radius: 8px;
+`
+
+export const CityDate = styled.Text`
+  font-size: 16px;
+  font-family: ${fonts.normal};
+  color: ${colors.white};
+  margin-bottom: 5%;
+`
+
+export const CityTitle = styled.Text`
+  font-size: 30px;
+  font-family: ${fonts.title};
+  color: ${colors.white};
+  margin-bottom: 5%;
+`
+
+export const CityTemperature = styled.Text`
+  font-size: 90px;
+  font-family: ${fonts.title};
+  color: ${colors.white};
+  margin-bottom: 5%;
 `
